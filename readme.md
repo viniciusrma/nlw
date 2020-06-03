@@ -2,7 +2,7 @@
     <img alt="Logo" title="#logo" width="300px" src="./assets/logo.svg"
 </h1>
 
-## :📍: Index
+## 📍 Index
 
 - [About](#about)
 - [Applied technologies](#applied-technologies)
@@ -11,7 +11,7 @@
 
 <a id="about"></a>
 
-## :📑: About
+## 📑 About
 
 The <strong>Ecoleta</strong> is a web application to help people find collection points for recycling.
 
@@ -19,7 +19,7 @@ This application was built at the <strong> Next Level Week </strong> distributed
 
 <a id="applied-technologies"></a>
 
-## :🛠🗜: Applied technologies
+## 🛠🗜 Applied technologies
  
 The project was developed using the following technologies:
 
@@ -29,7 +29,7 @@ The project was developed using the following technologies:
 
 <a id="how-to-use"></a>
 
-## :🕹: How to use
+## 🕹 How to use
 
 - ### **Prerequisites**
 
