@@ -19,7 +19,7 @@ This application was built at the <strong> Next Level Week </strong> distributed
 
 <a id="applied-technologies"></a>
 
-## 🛠🗜 Applied technologies
+## 💻 Applied technologies
  
 The project was developed using the following technologies:
 
@@ -29,7 +29,7 @@ The project was developed using the following technologies:
 
 <a id="how-to-use"></a>
 
-## 🕹 How to use
+## ⁉ How to use
 
 - ### **Prerequisites**
 
