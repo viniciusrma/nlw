@@ -19,7 +19,7 @@ This application was built at the <strong> Next Level Week </strong> distributed
 
 <a id="applied-technologies"></a>
 
-## 🛠🗜 Applied technologies
+## 💻 Applied technologies
  
 The project was developed using the following technologies:
 
@@ -29,7 +29,7 @@ The project was developed using the following technologies:
 
 <a id="how-to-use"></a>
 
-## 🕹 How to use
+## ⁉ How to use
 
 - ### **Prerequisites**
 
@@ -61,16 +61,16 @@ The project was developed using the following technologies:
 
 <a id="hot-to-contribute"></a>
 
-## :recycle: How to contribute
+## ♻️ How to contribute
 
 - Fork this repository;
 - Create a branch with you feature: `git checkout -b my-feature`;
 - Commit your changes: `git commit -m 'feat: My new feature'`;
 - Push into your: `git push origin my-feature`;
 
-## :memo: License
+## 📝 License
 
-This project is under license from MIT. See the archive: [LICENSE](LICENSE.md) for more details.
+This project is under license from MIT. See the archive: [LICENSE](license.md) for more details.
 
 ---
 
