@@ -2,21 +2,24 @@
   #homepage {
     background-position-x: 70vw;
   }
-    
   #homepage .content {
     align-items: center;
     text-align: center;
-  }
-    
+  } 
   #homepage header a {
     position: absolute;
     bottom: -30px;
     left: 50%;
     transform: translateX(-50%);
-  }
-    
+  } 
   #homepage main {
     align-items: center;
+  }
+  #page-search-results .cards {
+    grid-template-columns: 1fr;
+  }
+  #page-search-results .cards {
+    height: 200px;
   }
 }
   

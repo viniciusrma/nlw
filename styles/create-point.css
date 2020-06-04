@@ -4,21 +4,18 @@
   margin: 0 auto;
 
 }
-
 #page-create-point header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 48px;
 }
-
 #page-create-point header a {
   color: var(--title-color);
   font-weight: bold;
   display: flex;
   align-items: center;
 }
-
 #page-create-point header a span {
   background-image: url(../assets/arrow-left.svg);
   width: 20px;
@@ -26,7 +23,6 @@
   display: flex;
   margin-right: 16px;
 }
-
 form {
   background-color: white;
   padding: 64px;
@@ -34,36 +30,29 @@ form {
   margin: 80px auto;
   max-width: 730px;  
 }
-
 form h1 {
   font-size: 36px;
 
 }
-
 form fieldset {
   margin-top: 64px;
   border: 0;
 }
-
 form legend {
   margin-bottom: 40px;
 }
-
 form legend h2 {
   font-size: 24px;
 }
-
 form .field {
   display: flex;
   flex-direction: column;
   margin-bottom: 24px;
   flex: 1;
 }
-
 form .field-group {
   display: flex;
 }
-
 form input,
 form select {
   background-color: #f0f0f5;
@@ -72,27 +61,22 @@ form select {
   font-size: 16px;
   border-radius: 8px;
 }
-
 form select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
-
 form label {
   font-size: 14px;
   margin-bottom: 8px;
 }
-
 form label {
   font-size: 14px;
   margin-bottom: 8px;
 }
-
 form .field-group .field + .field {
   margin-left: 24px;
 }
-
 form button {
   width: 260px;
   height: 56px;
@@ -105,17 +89,14 @@ form button {
   margin-top: 40px;
   transition: background-color 400ms;
 }
-
 form button:hover {
   background-color: #2fb86e;
 }
-
 .items-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 16px;
 }
-
 .items-grid li {
   background-color: #f5f5f5;
   list-style: none;
@@ -129,7 +110,6 @@ form button:hover {
   text-align: center;
   cursor: pointer;
 }
-
 .items-grid li span {
   flex: 1;
   display: flex;
@@ -137,12 +117,10 @@ form button:hover {
   color: var(--title-color);
   margin-top: 12px;
 }
-
 .items-grid li.selected {
   background: #e1faec;
   border: 2px solid #34cb79;
 }
-
 .items-grid li img,
 .items-grid li span {
   pointer-events: none;
