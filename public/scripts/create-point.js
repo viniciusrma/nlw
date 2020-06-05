@@ -9,9 +9,7 @@ const populateUFs = () => {
     }
   } )
 }
-
 populateUFs();
-
 const getCities = (event) => {
   const citySelect = document.querySelector("select[name=city]");
   const stateInput = document.querySelector("[name=state]")
@@ -30,22 +28,16 @@ const getCities = (event) => {
     citySelect.disabled = false;
   } )
 }
-
 document
   .querySelector("select[name=uf]")
   .addEventListener("change", getCities )
 
 //Itens de coleta
-
 const itemsToCollect = document.querySelectorAll(".items-grid li");
 for (let item of itemsToCollect) {
   item.addEventListener("click", handleSelectedItem)
 }
-
-
 let selectedItems = [];
-
-
 function handleSelectedItem(event) {
   const itemLi = event.target;
   itemLi.classList.toggle("selected");
