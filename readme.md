@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Logo" title="#logo" width="300px" src="./assets/logo.svg"
+    <img alt="Logo" title="#logo" width="300px" src="./public/assets/logo.svg"
 </h1>
 
 ## 📍 Index
