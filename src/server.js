@@ -1,13 +1,23 @@
 const express = require("express");
 const server = express();
+
+//catch database
+const db = require("./database/db.js")
+
+//configure public folder
 server.use(express.static("public"));
+
+//template engine input
 const nunjucks = require("nunjucks");
 nunjucks.configure("src/views", {
   express: server,
   noCache: true
 })
 
-
+//configure applications ways
+//homepage
+//req: query
+//res: answer
 server.get("/", (req, res) => {
   return res.render("index.html");
 });
