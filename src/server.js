@@ -27,7 +27,17 @@ server.get("/create-point", (req, res) => {
 });
 
 server.get("/search", (req, res) => {
-  return res.render("search-results.html");
+  
+  //get data from the database
+  db.all('SELECT * FROM places', function(err, rows) {
+    if(err) {
+      return console.log(err) 
+    }
+    console.log("Aqui estão seus registros: ")
+    console.log(rows)
+    //show html page with data from database
+    return res.render("search-results.html", { places: rows})
+  })  
 });
 
-server.listen(3000);
+rs
